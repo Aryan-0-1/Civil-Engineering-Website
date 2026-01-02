@@ -30,7 +30,6 @@ urlpatterns = [
     path('opencf/',include('ocf.urls')),
     path('pipe/',include('pipe.urls')),
     path('rect/',include('rect.urls')),
-    path('water_quality/',include('water_quality.urls')),
 
     # path('design/', include('design.urls'))
 ]
